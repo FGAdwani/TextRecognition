@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data >
+        <variable
+            name="mata"
+            type="java.lang.String"/>
+    </data>
+    <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:strokeColor="#656565"
+        app:strokeWidth="2dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="xxxxxxxxxxxx"
+            android:text="@{mata}"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:textSize="22sp"
+            android:layout_margin="16dp"
+            android:id="@+id/tv"/>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>
